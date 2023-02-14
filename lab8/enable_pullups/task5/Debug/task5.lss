@@ -1,0 +1,4 @@
+
+AVRASM ver. 2.2.7  F:\lab8\enable_pullups\task5\main.asm Fri Nov 06 13:26:15 2020
+
+F:\lab8\enable_pullups\task5\main.asm(11): error: Cannot find include file: m4809def.inc

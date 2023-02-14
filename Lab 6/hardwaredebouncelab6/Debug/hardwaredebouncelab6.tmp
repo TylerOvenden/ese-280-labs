@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega4809"</DEVICE>
+ <WORKING_DIR>F:\ESE 280 Lab Work\Lab 6\hardwaredebouncelab6\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\ESE 280 Lab Work\Lab 6\hardwaredebouncelab6\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\ESE 280 Lab Work\Lab 6\hardwaredebouncelab6\Debug\hardwaredebouncelab6.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>hardwaredebouncelab6.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>hardwaredebouncelab6.map</FILE>
+  <FILE>hardwaredebouncelab6.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>F:\ESE 280 Lab Work\Lab 6\hardwaredebouncelab6\main.asm</FILE><LINE>14</LINE></start>
+  <main_loop><FILE>F:\ESE 280 Lab Work\Lab 6\hardwaredebouncelab6\main.asm</FILE><LINE>23</LINE></main_loop>
+  <check_one><FILE>F:\ESE 280 Lab Work\Lab 6\hardwaredebouncelab6\main.asm</FILE><LINE>29</LINE></check_one>
+  <count><FILE>F:\ESE 280 Lab Work\Lab 6\hardwaredebouncelab6\main.asm</FILE><LINE>34</LINE></count>
+  <reset><FILE>F:\ESE 280 Lab Work\Lab 6\hardwaredebouncelab6\main.asm</FILE><LINE>43</LINE></reset>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,4 @@
+
+AVRASM ver. 2.2.7  F:\lab7\segment_and_digit_test\table_lookup_seg_check\main.asm Fri Oct 30 13:10:08 2020
+
+F:\lab7\segment_and_digit_test\table_lookup_seg_check\main.asm(9): error: Cannot find include file: m4809def.inc

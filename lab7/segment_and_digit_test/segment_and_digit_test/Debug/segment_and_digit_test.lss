@@ -1,0 +1,6 @@
+
+AVRASM ver. 2.2.7  F:\lab7\segment_and_digit_test\segment_and_digit_test\main.asm Fri Oct 30 13:10:08 2020
+
+[builtin](2): error: Cannot find include file: m4809def.inc
+F:\lab7\segment_and_digit_test\segment_and_digit_test\main.asm(0): '[builtin]' included form here
+F:\lab7\segment_and_digit_test\segment_and_digit_test\main.asm(12): error: Cannot find include file: m4809def.inc

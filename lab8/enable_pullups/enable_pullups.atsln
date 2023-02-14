@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "enable_pullups", "enable_pullups\enable_pullups.asmproj", "{59B1D629-9DCC-43ED-A0FD-8AB0E4D622AB}"
+EndProject
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "task2", "task2\task2.asmproj", "{7C7CF734-E61C-47CA-8D7E-FCB14011E346}"
+EndProject
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "task4", "task4\task4.asmproj", "{08B41152-5775-4EB7-8607-8563E40A27D2}"
+EndProject
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "task3.1", "task3.1\task3.1.asmproj", "{6767AD95-5C3F-4FF5-A20E-595E704391B3}"
+EndProject
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "task5", "task5\task5.asmproj", "{A660B226-1FC0-4BE2-9128-C48BF97D8749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59B1D629-9DCC-43ED-A0FD-8AB0E4D622AB}.Debug|AVR.ActiveCfg = Debug|AVR
+		{59B1D629-9DCC-43ED-A0FD-8AB0E4D622AB}.Debug|AVR.Build.0 = Debug|AVR
+		{59B1D629-9DCC-43ED-A0FD-8AB0E4D622AB}.Release|AVR.ActiveCfg = Release|AVR
+		{59B1D629-9DCC-43ED-A0FD-8AB0E4D622AB}.Release|AVR.Build.0 = Release|AVR
+		{7C7CF734-E61C-47CA-8D7E-FCB14011E346}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7C7CF734-E61C-47CA-8D7E-FCB14011E346}.Debug|AVR.Build.0 = Debug|AVR
+		{7C7CF734-E61C-47CA-8D7E-FCB14011E346}.Release|AVR.ActiveCfg = Release|AVR
+		{7C7CF734-E61C-47CA-8D7E-FCB14011E346}.Release|AVR.Build.0 = Release|AVR
+		{08B41152-5775-4EB7-8607-8563E40A27D2}.Debug|AVR.ActiveCfg = Debug|AVR
+		{08B41152-5775-4EB7-8607-8563E40A27D2}.Debug|AVR.Build.0 = Debug|AVR
+		{08B41152-5775-4EB7-8607-8563E40A27D2}.Release|AVR.ActiveCfg = Release|AVR
+		{08B41152-5775-4EB7-8607-8563E40A27D2}.Release|AVR.Build.0 = Release|AVR
+		{6767AD95-5C3F-4FF5-A20E-595E704391B3}.Debug|AVR.ActiveCfg = Debug|AVR
+		{6767AD95-5C3F-4FF5-A20E-595E704391B3}.Debug|AVR.Build.0 = Debug|AVR
+		{6767AD95-5C3F-4FF5-A20E-595E704391B3}.Release|AVR.ActiveCfg = Release|AVR
+		{6767AD95-5C3F-4FF5-A20E-595E704391B3}.Release|AVR.Build.0 = Release|AVR
+		{A660B226-1FC0-4BE2-9128-C48BF97D8749}.Debug|AVR.ActiveCfg = Debug|AVR
+		{A660B226-1FC0-4BE2-9128-C48BF97D8749}.Debug|AVR.Build.0 = Debug|AVR
+		{A660B226-1FC0-4BE2-9128-C48BF97D8749}.Release|AVR.ActiveCfg = Release|AVR
+		{A660B226-1FC0-4BE2-9128-C48BF97D8749}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,52 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega4809"</DEVICE>
+ <WORKING_DIR>E:\lab10final\Task1\Task2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\lab10final\Task1\Task2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\lab10final\Task1\Task2\Debug\Task2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Task2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Task2.map</FILE>
+  <FILE>Task2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <digit_number><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>16</LINE></digit_number>
+  <bcd_entires><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>17</LINE></bcd_entires>
+  <led_display><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>18</LINE></led_display>
+  <hex_values><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>19</LINE></hex_values>
+  <reset><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>22</LINE></reset>
+  <start><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>31</LINE></start>
+  <display_ISR><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>103</LINE></display_ISR>
+  <porte_isr><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>116</LINE></porte_isr>
+  <enable_pullups><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>465</LINE></enable_pullups>
+  <main_loop><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>96</LINE></main_loop>
+  <multiplex><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>256</LINE></multiplex>
+  <intr_digit_entry><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>308</LINE></intr_digit_entry>
+  <intr_bcd_hex><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>355</LINE></intr_bcd_hex>
+  <hex_to_7seg><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>144</LINE></hex_to_7seg>
+  <hextable><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>155</LINE></hextable>
+  <reverse><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>182</LINE></reverse>
+  <repeat><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>184</LINE></repeat>
+  <first><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>274</LINE></first>
+  <second><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>279</LINE></second>
+  <third><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>284</LINE></third>
+  <fourth><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>289</LINE></fourth>
+  <end><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>296</LINE></end>
+  <test><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>340</LINE></test>
+  <BCD2bin16><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>441</LINE></BCD2bin16>
+  <test1><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>410</LINE></test1>
+  <finish><FILE>E:\lab10final\Task1\Task2\main.asm</FILE><LINE>458</LINE></finish>
+ </LABELS>
+</ASSEMBLER_INFO>

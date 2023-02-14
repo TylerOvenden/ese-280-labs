@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega4809"</DEVICE>
+ <WORKING_DIR>E:\lab5\pb_bounce\pb_debounce\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\lab5\pb_bounce\pb_debounce\Debug\pb_debounce.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>pb_debounce.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>pb_debounce.map</FILE>
+  <FILE>pb_debounce.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</FILE><LINE>14</LINE></start>
+  <main_loop><FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</FILE><LINE>23</LINE></main_loop>
+  <first_one><FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</FILE><LINE>28</LINE></first_one>
+  <var_delay><FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</FILE><LINE>62</LINE></var_delay>
+  <count><FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</FILE><LINE>37</LINE></count>
+  <reset><FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</FILE><LINE>47</LINE></reset>
+  <check_one><FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</FILE><LINE>52</LINE></check_one>
+  <outer_loop><FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</FILE><LINE>63</LINE></outer_loop>
+  <inner_loop><FILE>E:\lab5\pb_bounce\pb_debounce\main.asm</FILE><LINE>65</LINE></inner_loop>
+ </LABELS>
+</ASSEMBLER_INFO>

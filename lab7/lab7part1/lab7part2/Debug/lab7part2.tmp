@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega4809"</DEVICE>
+ <WORKING_DIR>F:\lab7\lab7part1\lab7part2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\lab7\lab7part1\lab7part2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\lab7\lab7part1\lab7part2\Debug\lab7part2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab7part2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab7part2.map</FILE>
+  <FILE>lab7part2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>F:\lab7\lab7part1\lab7part2\main.asm</FILE><LINE>14</LINE></start>
+  <main_loop><FILE>F:\lab7\lab7part1\lab7part2\main.asm</FILE><LINE>24</LINE></main_loop>
+  <display><FILE>F:\lab7\lab7part1\lab7part2\main.asm</FILE><LINE>30</LINE></display>
+  <reverse><FILE>F:\lab7\lab7part1\lab7part2\main.asm</FILE><LINE>64</LINE></reverse>
+  <hex_to_7seg><FILE>F:\lab7\lab7part1\lab7part2\main.asm</FILE><LINE>98</LINE></hex_to_7seg>
+  <hextable><FILE>F:\lab7\lab7part1\lab7part2\main.asm</FILE><LINE>110</LINE></hextable>
+ </LABELS>
+</ASSEMBLER_INFO>

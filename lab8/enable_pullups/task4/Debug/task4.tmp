@@ -1,0 +1,45 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega4809"</DEVICE>
+ <WORKING_DIR>F:\lab8\enable_pullups\task4\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\lab8\enable_pullups\task4\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\lab8\enable_pullups\task4\Debug\task4.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>task4.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>task4.map</FILE>
+  <FILE>task4.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <digit_number><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>15</LINE></digit_number>
+  <bcd_entires><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>16</LINE></bcd_entires>
+  <led_display><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>17</LINE></led_display>
+  <start><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>46</LINE></start>
+  <main_loop><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>64</LINE></main_loop>
+  <multiplex><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>176</LINE></multiplex>
+  <poll><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>241</LINE></poll>
+  <reverse><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>95</LINE></reverse>
+  <hex_to_7seg><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>131</LINE></hex_to_7seg>
+  <hextable><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>142</LINE></hextable>
+  <first><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>188</LINE></first>
+  <second><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>192</LINE></second>
+  <third><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>196</LINE></third>
+  <fourth><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>200</LINE></fourth>
+  <end><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>206</LINE></end>
+  <test1><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>269</LINE></test1>
+  <delay><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>298</LINE></delay>
+  <outer_loop><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>299</LINE></outer_loop>
+  <inner_loop><FILE>F:\lab8\enable_pullups\task4\main.asm</FILE><LINE>301</LINE></inner_loop>
+ </LABELS>
+</ASSEMBLER_INFO>

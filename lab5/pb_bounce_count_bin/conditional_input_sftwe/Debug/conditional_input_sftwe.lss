@@ -1,0 +1,4 @@
+
+AVRASM ver. 2.2.7  F:\lab5\pb_bounce_count_bin\conditional_input_sftwe\main.asm Fri Oct 09 13:02:09 2020
+
+F:\lab5\pb_bounce_count_bin\conditional_input_sftwe\main.asm(8): error: Cannot find include file: m4809def.inc

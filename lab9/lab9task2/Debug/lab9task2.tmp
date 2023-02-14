@@ -1,0 +1,55 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega4809"</DEVICE>
+ <WORKING_DIR>E:\lab9final\lab8task5\lab9task2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\lab9final\lab8task5\lab9task2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\lab9final\lab8task5\lab9task2\Debug\lab9task2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab9task2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab9task2.map</FILE>
+  <FILE>lab9task2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <digit_number><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>42</LINE></digit_number>
+  <bcd_entires><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>43</LINE></bcd_entires>
+  <led_display><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>44</LINE></led_display>
+  <hex_values><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>45</LINE></hex_values>
+  <reset><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>48</LINE></reset>
+  <start><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>58</LINE></start>
+  <display_ISR><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>122</LINE></display_ISR>
+  <porte_isr><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>135</LINE></porte_isr>
+  <enable_pullups><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>471</LINE></enable_pullups>
+  <main_loop><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>118</LINE></main_loop>
+  <multiplex><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>244</LINE></multiplex>
+  <intr_digit_entry><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>289</LINE></intr_digit_entry>
+  <intr_bcd_hex><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>337</LINE></intr_bcd_hex>
+  <hex_to_7seg><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>163</LINE></hex_to_7seg>
+  <hextable><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>174</LINE></hextable>
+  <reverse><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>200</LINE></reverse>
+  <repeat><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>202</LINE></repeat>
+  <first><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>256</LINE></first>
+  <second><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>262</LINE></second>
+  <third><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>268</LINE></third>
+  <fourth><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>273</LINE></fourth>
+  <end><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>280</LINE></end>
+  <test><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>322</LINE></test>
+  <BCD2bin16><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>414</LINE></BCD2bin16>
+  <test1><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>388</LINE></test1>
+  <finish><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>431</LINE></finish>
+  <delay><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>458</LINE></delay>
+  <outer_loop><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>459</LINE></outer_loop>
+  <inner_loop><FILE>E:\lab9final\lab8task5\lab9task2\main.asm</FILE><LINE>461</LINE></inner_loop>
+ </LABELS>
+</ASSEMBLER_INFO>

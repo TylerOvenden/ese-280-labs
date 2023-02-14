@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "conditionalHardware", "conditionalHardware.asmproj", "{AFC66151-E734-49F2-957C-D16FACB4C35D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFC66151-E734-49F2-957C-D16FACB4C35D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{AFC66151-E734-49F2-957C-D16FACB4C35D}.Debug|AVR.Build.0 = Debug|AVR
+		{AFC66151-E734-49F2-957C-D16FACB4C35D}.Release|AVR.ActiveCfg = Release|AVR
+		{AFC66151-E734-49F2-957C-D16FACB4C35D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

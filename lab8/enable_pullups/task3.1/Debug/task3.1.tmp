@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega4809"</DEVICE>
+ <WORKING_DIR>F:\lab8\enable_pullups\task3.1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\lab8\enable_pullups\task3.1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\lab8\enable_pullups\task3.1\Debug\task3.1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>task3.1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>task3.1.map</FILE>
+  <FILE>task3.1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <bcd_entires><FILE>F:\lab8\enable_pullups\task3.1\main.asm</FILE><LINE>16</LINE></bcd_entires>
+  <led_display><FILE>F:\lab8\enable_pullups\task3.1\main.asm</FILE><LINE>17</LINE></led_display>
+  <start><FILE>F:\lab8\enable_pullups\task3.1\main.asm</FILE><LINE>21</LINE></start>
+  <main_loop><FILE>F:\lab8\enable_pullups\task3.1\main.asm</FILE><LINE>31</LINE></main_loop>
+  <poll><FILE>F:\lab8\enable_pullups\task3.1\main.asm</FILE><LINE>134</LINE></poll>
+  <hex_to_7seg><FILE>F:\lab8\enable_pullups\task3.1\main.asm</FILE><LINE>59</LINE></hex_to_7seg>
+  <hextable><FILE>F:\lab8\enable_pullups\task3.1\main.asm</FILE><LINE>70</LINE></hextable>
+  <reverse><FILE>F:\lab8\enable_pullups\task3.1\main.asm</FILE><LINE>96</LINE></reverse>
+  <test><FILE>F:\lab8\enable_pullups\task3.1\main.asm</FILE><LINE>166</LINE></test>
+ </LABELS>
+</ASSEMBLER_INFO>

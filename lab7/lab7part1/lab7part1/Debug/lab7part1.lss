@@ -1,0 +1,107 @@
+
+AVRASM ver. 2.2.7  F:\lab7\lab7part1\lab7part1\main.asm Fri Nov 06 13:08:45 2020
+
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc'
+F:\lab7\lab7part1\lab7part1\main.asm(11): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc'
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc'
+F:\lab7\lab7part1\lab7part1\main.asm(11): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc'
+                                 
+                                 ;
+                                 
+                                 
+                                 ;*************************************************************************
+                                 ;* A P P L I C A T I O N   N O T E   F O R   T H E   A V R   F A M I L Y
+                                 ;*
+                                 ;* Number            : AVR000
+                                 ;* File Name         : m4809def.inc
+                                 ;* Title             : Register/Bit Definitions for the ATmega4809
+                                 ;* Created           : 2018-02-19 10:50
+                                 ;* Version           : 1.00
+                                 ;* Support e-mail    : avr@atmel.com
+                                 ;* Target MCU        : ATmega4809
+                                 ;*
+                                 ;* DESCRIPTION
+                                 ;* When including this file in the assembly program file, all I/O register
+                                 ;* names and I/O register bit names appearing in the data book can be used.
+                                 ;* In addition, the six registers forming the three data pointers X, Y and
+                                 ;* Z have been assigned names XL - ZH. Highest RAM address for Internal
+                                 ;* SRAM is also defined
+                                 ;*
+                                 ;*************************************************************************
+                                 
+                                 #ifndef _M4809DEF_INC_
+                                 #define _M4809DEF_INC_
+                                 
+                                 
+                                 #pragma partinc 0
+                                 
+                                 ; ***** SPECIFY DEVICE ***************************************************
+                                 .device	ATmega4809
+                                 
+                                 #pragma AVRPART ADMIN PART_NAME ATmega4809
+                                 
+                                 .equ	SIGNATURE_000	= 0x1E
+                                 .equ	SIGNATURE_001	= 0x96
+                                 .equ	SIGNATURE_002	= 0x51
+                                 
+                                 #pragma AVRPART CORE CORE_VERSION V3X
+                                 
+                                 
+                                 ; ***** ABSOLUTE I/O REGISTER LOCATIONS **********************************
+                                 
+                                 
+                                 ;*************************************************************************
+                                 ;** AC0 - Analog Comparator
+                                 ;*************************************************************************
+                                 
+                                 .equ AC0_CTRLA = 1664                    ; Control A
+                                 .equ AC0_MUXCTRLA = 1666                 ; Mux Control A
+                                 .equ AC0_DACREF = 1668                   ; Referance scale control
+                                 .equ AC0_INTCTRL = 1670                  ; Interrupt Control
+                                 .equ                                   .equ CPUINT_STATUS = 273                 ; Status
+                                 .equ CPUINT_LVL0PRI = 274                ; Interrupt Level 0 Priority
+                                 .equ CPUINT_LVL1VEC = 275                ; Interrupt Level 1 Priority Vector
+                                 
+                                 ;*************************************************************************
+                                 ;** CRCSCAN - CRCSCAN
+                                 ;*************************************************************************
+                                 
+                                 .equ CRCSCAN_CTRLA = 288                 ; Control A
+                                 .equ CRCSCAN_CTRLB = 289                 ; Control B
+                                 .equ CRCSCAN_STATUS = 290                ; Status
+                                 
+                                 ;*************************************************************************
+                                 ;** EVSYS - Event System
+                                 ;*************************************************************************
+                                 
+                                 .equ EVSYS_STROBE = 384                  ; Channel Strobe
+                                 .equ EVSYS_CHANNEL0 = 400                ; Multiplexer Channel 0
+                                 .equ EVSYS_CHANNEL1 = 401                ; Multiplexer Channel 1
+                                 .equ EVSYS_CHANNEL2 = 402                ; Multiplexer Channel 2
+                                 .equ EVSYS_CHANNEL3 = 403                ; Multiplexer Channel 3
+                                 .equ EVSYS_CHANNEL4 = 404                ; Multiplexer Channel 4
+                                 .equ EVSYS_CHANNEL5 = 405                ; Multiplexer Channel 5
+                                 .equ EVSYS_CHANNEL6 = 406                ; Multiplexer Channel 6
+                                 .equ EVSYS_CHANNEL7 = 407                ; Multiplexer Channel 7
+                                 .equ EVSYS_USERCCLLUT0A = 416            ; User CCL LUT0 Event A
+                                 .equ EVSYS_USERCCLLUT0B = 417            ; User CCL LUT0 Event B
+                                 .equ EVSYS_USERCCLLUT1A = 418            ; User CCL LUT1 Event A
+                                 .equ EVSYS_USERCCLLUT1B = 419            ; User CCL LUT1 Event B
+                                 .equ EVSYS_USERCCLLUT2A = 420            ; User CCL LUT2 Event A
+                                 .equ EVSYS_USERCCLLUT2B = 421            ; User CCL LUT2 Event B
+                                 .equ EVSYS_USERCCLLUT3A = 422            ; User CCL LUT3 Event A
+                                 .equ EVSYS_USERCCLLUT3B = 423            ; User CCL LUT3 Event B
+                                 .equ EVSYS_USERADC0 = 424                ; User ADC0
+                                 .equ EVSYS_USEREVOUTA = 425              ; User EVOUT Port A
+                                 .equ EVSYS_USEREVOUTB = 426              ; User EVOUT Port B
+                                 .equ EVSYS_USEREVOUTC = 427              ; User EVOUT Port C
+                                 .equ EVSYS_USEREVOUTD = 428              ; User EVOUT Port D
+                                 .equ EVSYS_USEREVOUTE = 429              ; User EVOUT Port E
+                                 .equ EVSYS_USEREVOUTF = 430              ; User EVOUT Port F
+                                 .equ EVSYS_USERUSART0 = 431              ; User USART0
+                                 .equ EVSYS_USERUSART1 = 432              ; User USART1
+                                 .equ EVSYS_USERUSART2 = 433              ; User USART2
+                                 .equ EVSYS_USERUSART3 = 434              ; User USART3
+                                 .equ EVSYS_USERTCA0 = 435                ; User TCA0
+                                 .equ EVSYS_USERTCB0 = 436                ; User TCB0
+                              

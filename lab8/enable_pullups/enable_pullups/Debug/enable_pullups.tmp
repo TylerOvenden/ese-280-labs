@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega4809"</DEVICE>
+ <WORKING_DIR>F:\lab8\enable_pullups\enable_pullups\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\lab8\enable_pullups\enable_pullups\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m4809def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\lab8\enable_pullups\enable_pullups\Debug\enable_pullups.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>enable_pullups.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>enable_pullups.map</FILE>
+  <FILE>enable_pullups.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <bcd_entires><FILE>F:\lab8\enable_pullups\enable_pullups\main.asm</FILE><LINE>15</LINE></bcd_entires>
+  <led_display><FILE>F:\lab8\enable_pullups\enable_pullups\main.asm</FILE><LINE>16</LINE></led_display>
+  <start><FILE>F:\lab8\enable_pullups\enable_pullups\main.asm</FILE><LINE>19</LINE></start>
+  <main_loop><FILE>F:\lab8\enable_pullups\enable_pullups\main.asm</FILE><LINE>26</LINE></main_loop>
+  <enable_pullups><FILE>F:\lab8\enable_pullups\enable_pullups\main.asm</FILE><LINE>31</LINE></enable_pullups>
+ </LABELS>
+</ASSEMBLER_INFO>

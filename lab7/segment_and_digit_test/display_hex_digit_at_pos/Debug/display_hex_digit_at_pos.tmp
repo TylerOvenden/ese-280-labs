@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega4809"</DEVICE>
+ <WORKING_DIR>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m4809def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\Debug\display_hex_digit_at_pos.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>display_hex_digit_at_pos.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>display_hex_digit_at_pos.map</FILE>
+  <FILE>display_hex_digit_at_pos.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\main.asm</FILE><LINE>15</LINE></start>
+  <hextable><FILE>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\main.asm</FILE><LINE>78</LINE></hextable>
+  <display><FILE>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\main.asm</FILE><LINE>80</LINE></display>
+  <first_digit><FILE>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\main.asm</FILE><LINE>87</LINE></first_digit>
+  <second_digit><FILE>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\main.asm</FILE><LINE>90</LINE></second_digit>
+  <third_digit><FILE>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\main.asm</FILE><LINE>93</LINE></third_digit>
+  <fourth_digit><FILE>C:\Users\tyler\Documents\Atmel Studio\7.0\segment_and_digit_test\display_hex_digit_at_pos\main.asm</FILE><LINE>96</LINE></fourth_digit>
+ </LABELS>
+</ASSEMBLER_INFO>
